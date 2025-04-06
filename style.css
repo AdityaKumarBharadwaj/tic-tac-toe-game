@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #011627;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    /* -webkit-text-fill-color: yellow; */
+    -webkit-text-stroke-color: yellow;
+    -webkit-text-stroke-width: 2px;
+    /* color: transparent; */
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    /* -webkit-text-stroke-color: yellow;
+    -webkit-text-stroke-width: 2px;*/
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    /* margin: 4px; */
+    border: none;
+    border-radius: 1.1rem;
+    box-shadow: 0 0 1rem rgb(21, 21, 20);
+    font-size: 8vmin;
+    color: black;
+    background-color: #fff;
+}
+
+.box:hover {
+    background-color: rgb(167, 169, 172);
+
+}
+
+#msg {
+    color: #fff;
+    font-size: 8vmin;
+    display: inline-block;
+
+}
+
+.msg-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* change the flex direction to column if after text, button should in the next line and not in the same line*/
+}
+
+.hide {
+    display: none;
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    display: block;
+    background-color: #fff;
+    border-radius: 1rem;
+    size: 40px;
+    border: none;
+    margin-left: 46%;
+}
+
+#reset-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+#new-btn {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    display: block;
+    background-color: #fff;
+    border-radius: 1rem;
+    size: 40px;
+    border: none;
+}
+
+#new-btn:hover {
+    background-color: rgb(22, 229, 22);
+}
+
+
+
+.box:hover {
+    box-shadow: 0px 0px 10px 5px yellow; /* Outer glow effect */
+}
+
+
+.box:hover {
+    outline: 2px solid white;
+    outline-offset: 5px;
+    box-shadow: 0px 0px 10px 5px white;
+}
